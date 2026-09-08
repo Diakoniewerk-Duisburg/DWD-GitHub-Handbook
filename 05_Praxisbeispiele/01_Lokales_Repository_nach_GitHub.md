@@ -167,4 +167,4 @@ Siehe:
 
 - [Push abgelehnt](05_Push_abgelehnt.md)
 - [Push abgelehnt – Troubleshooting](../08_Troubleshooting/Push_abgelehnt.md)
-- [HowTo: Lokales Repository nach GitHub übertragen](../04_HowTos/01_Repository/Lokales_Repository_nach_GitHub_uebertragen.md)
+- [HowTo: Lokales Repository nach GitHub übertragen](../04_HowTos/Lokales_Repository_nach_GitHub_uebertragen.md)
