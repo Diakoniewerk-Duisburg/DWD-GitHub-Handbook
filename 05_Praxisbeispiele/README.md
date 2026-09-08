@@ -1,42 +1,58 @@
 # Praxisbeispiele
 
-## Zweck
+Dieser Bereich zeigt typische Situationen aus der täglichen Arbeit mit Git und GitHub.
 
-Praxisbeispiele zeigen konkrete Situationen aus der täglichen Arbeit mit Git und GitHub.
-
-Sie sind kompakter als ein vollständiges HowTo und dienen vor allem dazu, typische Zustände, Entscheidungen und Fehlerbilder zu verstehen.
+Die Beispiele sind bewusst praxisnah gehalten. Sie zeigen nicht nur den benötigten Befehl, sondern vor allem die Situation, die Prüfung und die richtige Reaktion.
 
 ## Beispiele
 
-- Lokales Repository nach GitHub übertragen
-- GitHub-Änderung lokal übernehmen
-- Lokale Änderung committen und pushen
-- Repository-Stand prüfen
-- Push abgelehnt
-- Falsches Remote erkennen
-- Mehrere Änderungen sauber committen
-- Online und lokal arbeiten
+1. [Lokales Repository nach GitHub übertragen](01_Lokales_Repository_nach_GitHub.md)
+2. [GitHub-Änderung lokal übernehmen](02_GitHub_Aenderung_lokal_uebernehmen.md)
+3. [Lokale Änderung committen und pushen](03_Lokale_Aenderung_committen_und_pushen.md)
+4. [Repository-Stand prüfen](04_Repository_Stand_pruefen.md)
+5. [Push abgelehnt](05_Push_abgelehnt.md)
+6. [Falsches Remote erkennen](06_Falsches_Remote_erkennen.md)
+7. [Mehrere Änderungen sauber committen](07_Mehrere_Aenderungen_sauber_committen.md)
+8. [Online und lokal arbeiten](08_Online_und_lokal_arbeiten.md)
 
-Die konkreten Beispiele liegen in diesem Verzeichnis.
+## Wofür sind Praxisbeispiele gedacht?
+
+Praxisbeispiele helfen bei konkreten Situationen, zum Beispiel:
+
+- ein bestehendes lokales Repository nach GitHub übertragen,
+- eine Online-Änderung lokal übernehmen,
+- eine lokale Änderung committen und pushen,
+- den aktuellen Repository-Zustand feststellen,
+- einen abgelehnten Push verstehen,
+- ein falsches Remote erkennen,
+- mehrere Änderungen sinnvoll auf Commits verteilen,
+- online und lokal mit demselben Repository arbeiten.
 
 ## Abgrenzung
 
-**HowTo:** vollständige Schritt-für-Schritt-Anleitung für eine Aufgabe.
+Ein Praxisbeispiel ist **keine vollständige Befehlsreferenz** und ersetzt auch kein HowTo.
 
-**Praxisbeispiel:** konkrete Situation zur Veranschaulichung eines Arbeitsablaufs oder Problems.
+- **HowTo:** vollständige Schritt-für-Schritt-Anleitung für eine konkrete Aufgabe.
+- **Praxisbeispiel:** konkrete Situation mit Prüfung, Entscheidung und Lösung.
+- **Befehlsreferenz:** Erklärung eines einzelnen Git-Befehls.
+- **Troubleshooting:** systematische Behandlung typischer Fehler und Probleme.
 
-**Befehlsreferenz:** technische Referenz für einen einzelnen Git-Befehl.
+## Grundprinzip
 
-**Troubleshooting:** gezielte Fehleranalyse und Problemlösung.
+Bei jedem Praxisfall gilt:
 
-## Grundregel
+```text
+Zustand prüfen
+      ↓
+Situation verstehen
+      ↓
+gezielt handeln
+      ↓
+Ergebnis kontrollieren
+```
 
-Ein Praxisbeispiel soll immer zeigen:
+Der wichtigste erste Befehl bleibt:
 
-1. Ausgangssituation
-2. Problem oder Aufgabe
-3. Prüfung
-4. Handlung
-5. Kontrolle
-
-Damit bleibt die praktische Situation nachvollziehbar und reproduzierbar.
+```powershell
+git status
+```
