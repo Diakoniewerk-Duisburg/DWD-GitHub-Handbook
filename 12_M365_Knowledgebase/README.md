@@ -2,9 +2,9 @@
 
 ## Zweck
 
-Die DWD M365 Knowledgebase bündelt fachliches, technisches und projektbezogenes Wissen für Microsoft 365, SharePoint, Power Platform und Copilot.
+Die DWD M365 Knowledgebase bündelt fachliches, technisches, organisatorisches und projektbezogenes Wissen rund um die digitale Arbeitsumgebung.
 
-Sie ist keine Ablage für beliebige Dokumente. Inhalte werden nach Wissensdomäne, Quelle, Gültigkeit und Verantwortlichkeit strukturiert.
+Microsoft 365, SharePoint, Power Platform, Copilot und GitHub sind **gleichberechtigte Wissensdomänen**. GitHub ist damit kein nachgelagerter Quellenspeicher, sondern ein eigener Bestandteil der Gesamtwissensarchitektur.
 
 ## Zielarchitektur
 
@@ -17,42 +17,43 @@ DWD M365 Knowledgebase
 ├── 03_SharePoint
 ├── 04_Power_Platform
 ├── 05_Copilot
-├── 06_Daten
-├── 07_Prozesse
-├── 08_Architektur
-├── 09_Entwicklung
-├── 10_Betrieb
-├── 11_Sicherheit_und_Compliance
-├── 12_Projektwissen
-├── 13_Wissensobjekte
+├── 06_GitHub
+├── 07_Daten
+├── 08_Prozesse
+├── 09_Architektur
+├── 10_Entwicklung
+├── 11_Betrieb
+├── 12_Sicherheit_und_Compliance
+├── 13_Projektwissen
+├── 14_Wissensobjekte
 └── 90_Quellen
 ```
 
 ## Grundprinzipien
 
-1. GitHub bleibt eine eigenständige und aktive Wissensquelle.
-2. Die primäre Quelle eines Wissensobjekts wird eindeutig festgelegt.
-3. Inhalte werden nicht unnötig mehrfach gepflegt.
-4. Fachliches, technisches und projektbezogenes Wissen wird unterscheidbar dokumentiert.
-5. Copilot erhält nur definierte, freigegebene Wissensquellen.
-6. Verbindliche Entscheidungen werden von Empfehlungen und Entwürfen getrennt.
-7. Veraltete Inhalte werden kenntlich gemacht und nicht als aktuelle Wahrheit verwendet.
-8. Dateinamen und Ordner bleiben ohne Umlaute.
-9. Dokumentation wird grundsätzlich auf Deutsch geführt; technische Bezeichner bleiben in der etablierten Schreibweise.
+1. Jede Domäne besitzt eine eigene fachliche und technische Verantwortung.
+2. GitHub ist eine gleichberechtigte Wissensdomäne und wird nicht auf seine Rolle als Quelle reduziert.
+3. Die primäre Quelle eines Wissensobjekts wird eindeutig festgelegt.
+4. Inhalte werden nicht unnötig mehrfach gepflegt.
+5. Fachliches, technisches, organisatorisches und projektbezogenes Wissen bleibt unterscheidbar.
+6. Copilot ist keine Primärquelle, sondern nutzt freigegebene Wissensquellen.
+7. Verbindliche Entscheidungen werden von Empfehlungen und Entwürfen getrennt.
+8. Veraltete Inhalte werden kenntlich gemacht und nicht als aktuelle Wahrheit verwendet.
+9. Dateinamen und Ordner bleiben ohne Umlaute.
+10. Dokumentation wird grundsätzlich auf Deutsch geführt; technische Bezeichner bleiben in der etablierten Schreibweise.
 
-## Quellenmodell
+## Verhältnis zu bestehenden Repositories
 
-Die Knowledgebase unterscheidet mindestens:
+Die Knowledgebase ist ein Wissensmodell und keine Aufforderung zur physischen Zusammenkopierung aller Inhalte.
 
-- GitHub: technische Entwicklung, Code, technische Standards und Entwicklungsdokumentation
-- SharePoint: fachliche und organisatorische Informationen sowie veröffentlichte Betriebsdokumentation
-- Microsoft: Herstellerwissen und Produktreferenz
-- Projektquellen: Anforderungen, Konzepte, Entscheidungen und Projektnachweise
+Bestehende Repositories bleiben dort, wo sie fachlich und technisch hingehören. Für GitHub ist insbesondere das bestehende `DWD-GitHub-Handbook` die operative Primärquelle für Git- und GitHub-Arbeitsweisen. Die Domäne `06_GitHub` bildet diese Inhalte konzeptionell innerhalb der Knowledgebase ab, ohne das Handbook zu zerstören oder dessen bestehende Struktur umzubauen.
 
-## GitHub als aktive Quelle
+Die Zuordnung wird in `00_Governance/KONSOLIDIERUNGSMATRIX.md` dokumentiert.
 
-Das Repository `Diakoniewerk-Duisburg/DWD-GitHub-Handbook` bleibt selbst Bestandteil der Wissensarchitektur. Es wird nicht durch eine Kopie ersetzt. Die Knowledgebase referenziert die Inhalte und definiert, welche Inhalte für M365- und Copilot-Wissen relevant sind.
+## Quellen
+
+`90_Quellen` beschreibt Herkunft und Provenienz von Wissen. Eine Quelle ist nicht automatisch eine eigene Wissensdomäne. Die Domänenstruktur bestimmt, wo Wissen fachlich eingeordnet wird; das Quellenmodell bestimmt, woher die Aussage stammt.
 
 ## Status
 
-**Initiale Zielstruktur angelegt – Konsolidierung und Befüllung folgen.**
+**Zielmodell beschlossen – Domänenstruktur und Konsolidierung werden schrittweise aufgebaut.**
