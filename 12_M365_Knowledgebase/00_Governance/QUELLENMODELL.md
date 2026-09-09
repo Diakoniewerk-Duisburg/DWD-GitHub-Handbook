@@ -2,27 +2,36 @@
 
 ## Ziel
 
-Das Quellenmodell verhindert widerspruechliche Parallelpflege und legt fest, welche Quelle fuer welche Aussage massgeblich ist.
+Das Quellenmodell beschreibt die Herkunft von Wissen und verhindert widerspruechliche Parallelpflege. Es ist von der Wissensdomänenstruktur getrennt.
+
+## Wissensdomäne und Quelle
+
+Eine Wissensdomäne beantwortet die Frage **wozu gehört das Wissen?**. Eine Quelle beantwortet die Frage **woher stammt die konkrete Aussage?**.
+
+Beispiel: GitHub ist die Wissensdomäne `06_GitHub`. Das `DWD-GitHub-Handbook` ist eine konkrete Primärquelle innerhalb dieser Domäne.
 
 ## Primaere Quellen
 
-| Bereich | Primaere Quelle | Nutzung |
+| Wissensdomäne | Typische Primärquelle | Nutzung |
 |---|---|---|
-| Git/GitHub-Verfahren | DWD-GitHub-Handbook | technische Arbeitsweise |
-| Code und Skripte | jeweiliges GitHub-Repository | Entwicklung |
-| Technische Architektur | zugeordnetes Projekt-/Technik-Repository | Architektur |
-| Fachprozesse | freigegebene DWD-Dokumentation | Fachlichkeit |
-| Organisationsdaten | freigegebene DWD-Quelle | Organisation |
-| Microsoft-Produktwissen | Microsoft-Dokumentation | Referenz |
-| Projektentscheidungen | Projekt-Dokumentation | Nachweis |
+| GitHub | DWD-GitHub-Handbook und jeweilige GitHub-Repositories | Git/GitHub-Arbeitsweise und Entwicklung |
+| Microsoft_365 | Microsoft-Dokumentation und freigegebene DWD-Dokumentation | Produktwissen und interne Nutzung |
+| SharePoint | freigegebene DWD-Architektur und Betriebsdokumentation | Informationsarchitektur und Betrieb |
+| Power_Platform | Microsoft-Dokumentation und freigegebene DWD-Lösungsdokumentation | Apps, Automatisierung und Plattformbetrieb |
+| Copilot | freigegebene Produkt-, Lösungs- und Governance-Dokumentation | Copilot und Agents |
+| Daten | freigegebene Datenmodelle und Fachquellen | Datenstrukturen und Beziehungen |
+| Prozesse | freigegebene Prozessdokumentation | Fach- und IT-Prozesse |
+| Architektur | freigegebene Architekturentscheidungen | Ziel- und Systemarchitektur |
+| Entwicklung | Quellrepository und technische Dokumentation | Code, APIs, Tests und Deployment |
+| Betrieb | freigegebene Betriebsdokumentation | Administration, Monitoring und Support |
+| Sicherheit_und_Compliance | freigegebene Richtlinien und Nachweise | Datenschutz, Sicherheit und Audit |
+| Projektwissen | jeweilige Projektdokumentation | Anforderungen, Entscheidungen und Nachweise |
 
 ## GitHub
 
-Das `DWD-GitHub-Handbook` bleibt eine eigenstaendige Quelle. Seine Inhalte werden nicht automatisch kopiert. Fuer die Knowledgebase werden relevante Inhalte referenziert, klassifiziert und bei Bedarf in geeignete Wissensobjekte ueberfuehrt.
+Das `DWD-GitHub-Handbook` bleibt eigenständige Primärquelle. Seine Inhalte werden nicht automatisch kopiert. Relevante Inhalte werden der Domäne `06_GitHub` zugeordnet, referenziert und bei Bedarf als konsolidierte Wissensobjekte weiterverarbeitet.
 
-## SharePoint
-
-SharePoint dient insbesondere als kontrollierte Publikations- und Wissensplattform fuer freigegebene fachliche, organisatorische und betriebliche Inhalte.
+Die bestehende Struktur des Handbooks bleibt dabei erhalten. Eine physische Verschiebung von `02_GitHub_Online`, `03_Arbeitsweise` usw. ist nicht erforderlich.
 
 ## Copilot
 
