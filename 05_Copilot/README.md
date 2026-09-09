@@ -4,9 +4,10 @@ Diese Wissensdomäne beschreibt Microsoft 365 Copilot, Agents, Copilot Studio, W
 
 ## Fachlicher Arbeitsstand
 
-Der bisherige Arbeitsstand ist konsolidiert. Wesentliche Erkenntnisse aus der bisherigen Bearbeitung sollen nicht dauerhaft nur im Chat existieren.
+Der bisherige Chat-Arbeitsstand wurde mit dem Repository-Inhalt abgeglichen und konsolidiert. Die vollstaendige Konsolidierungsdokumentation steht in:
 
-- [Copilot-Konsolidierung](COPILOT_KONSOLIDIERUNG.md) – Audit- und Konsolidierungsnachweis
+- [Chat-/Repository-Konsolidierung](CHAT_REPOSITORY_KONSOLIDIERUNG.md) – detaillierter Abgleich von Erkenntnissen und Aufzaehlungen
+- [Copilot-Konsolidierung](COPILOT_KONSOLIDIERUNG.md) – bisheriger Audit- und Konsolidierungsnachweis
 - [Agenten-Matrix](Agents/Agenten_Matrix.md) – zentrale Vergleichs- und Entscheidungsreferenz
 
 ## Struktur
@@ -25,6 +26,13 @@ Grundlagen zu Zweck, Aufbau, Wissensquellen, Tools, Berechtigungen und Auswahl d
 - [Grundlagen](Agents/Grundlagen.md)
 - [Uebersicht und Einordnung](Agents/Agenten_Uebersicht.md)
 - [Agenten-Matrix](Agents/Agenten_Matrix.md)
+- [Agenten-Spezifikation](Agents/Agenten_Spezifikation.md)
+- [Agenten-Lifecycle](Agents/Agenten_Lifecycle.md)
+- [Autonomiestufen](Agents/Autonomiestufen.md)
+- [Connectoren und Aktionen](Agents/Connectoren_und_Aktionen.md)
+- [MCP und Tools](Agents/MCP_und_Tools.md)
+- [Umgebungen und ALM](Agents/Umgebungen_und_ALM.md)
+- [Testing und Debugging](Agents/Testing_und_Debugging.md)
 - [Microsoft Agents](Agents/Microsoft_Agents.md)
 - [Finance Agent](Agents/Finance_Agent.md)
 - [Security Agents](Agents/Security_Agents.md)
@@ -55,6 +63,33 @@ Governance fuer Identitaet, Daten, Wissensquellen, Connectoren, Freigabe, Betrie
 
 - [Grundlagen](Governance/Grundlagen.md)
 - [Agent 365 und Governance](Governance/Agent_365_und_Governance.md)
+- [Risiko- und Schutzklassen](Governance/Risiko_und_Schutzklassen.md)
+- [Freigabeprozess](Governance/Freigabeprozess.md)
+- [Berechtigungsmodell](Governance/Berechtigungsmodell.md)
+- [Datenschutz und Privatsphaere](Governance/Datenschutz_und_Privatsphaere.md)
+- [Audit und Monitoring](Governance/Audit_und_Monitoring.md)
+- [Lizenzierung und Kosten](Governance/Lizenzierung_und_Kosten.md)
+
+### DWD-Anwendungsfaelle
+
+Konkrete Kandidaten fuer spaetere Prototypen und produktive Fachloesungen.
+
+- [Uebersicht](DWD_Anwendungsfaelle/README.md)
+- [Wissensagent](DWD_Anwendungsfaelle/01_Wissensagent.md)
+- [Beschaffungsagent](DWD_Anwendungsfaelle/02_Beschaffungsagent.md)
+- [Genehmigungsagent](DWD_Anwendungsfaelle/03_Genehmigungsagent.md)
+- [Ticketagent](DWD_Anwendungsfaelle/04_Ticketagent.md)
+- [Provisioningagent](DWD_Anwendungsfaelle/05_Provisioningagent.md)
+- [Datenmigrationsagent](DWD_Anwendungsfaelle/06_Datenmigrationsagent.md)
+- [Adressbuchagent](DWD_Anwendungsfaelle/07_Adressbuchagent.md)
+
+### Patterns
+
+Wiederverwendbare Muster fuer kontrollierte Agentenarchitekturen.
+
+- [Patterns](Patterns/README.md)
+- [Human-in-the-Loop](Patterns/Human_in_the_Loop.md)
+- [Agenten-Orchestrierung](Patterns/Agenten_Orchestrierung.md)
 
 ## DWD-Leitgedanke
 
@@ -81,4 +116,4 @@ Entscheidend sind:
 
 ## Status
 
-**Konsolidierter fachlicher Arbeitsstand.** Die naechste Ausbaustufe besteht aus konkreten DWD-Anwendungsfaellen, Agent-Steckbriefen, Testfaellen, Governance-Vorlagen und belastbaren Prozessintegrationen.
+**Konsolidierter fachlicher Arbeitsstand.** Chat-Erkenntnisse und Repository-Wissen sind als dauerhafte Grundlage zusammengefuehrt. Die naechste Ausbaustufe ist nicht mehr die Sicherung des bisherigen Chatwissens, sondern die fachliche und technische Vertiefung konkreter DWD-Loesungen.
