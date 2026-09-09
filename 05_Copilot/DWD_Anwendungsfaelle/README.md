@@ -16,6 +16,15 @@ Hier werden konkrete DWD-Fachprobleme als potenzielle Copilot-/Agenten-Anwendung
 | [Datenmigrationsagent](06_Datenmigrationsagent.md) | Datenmigration | Analyse, Qualitaetspruefung und Vorbereitung | A2 / R3+ |
 | [Adressbuchagent](07_Adressbuchagent.md) | Zentrales Adressbuch | Suche und kontrollierte Pflege | A1-A2 / R2+ |
 
+## Beschaffungsagent – ausgearbeiteter Stand
+
+Der Beschaffungsagent ist als erster konkreter DWD-Agent fachlich und technisch spezifiziert:
+
+- [Beschaffungsagent – Konzept](Beschaffungsagent_Konzept.md)
+- [Beschaffungsagent – Agentenspezifikation v1.0](02_Beschaffungsagent_Spezifikation_v1.0.md)
+
+Die Spezifikation definiert den MVP mit Bedarfserfassung, Vollstaendigkeitspruefung, Regelpruefung, strukturierter Antragserstellung, Genehmigungsworkflow und Statusauskunft. Eine verbindliche Bestellung ist im MVP bewusst ausgeschlossen.
+
 ## Bewertungsregel
 
 Ein Kandidat wird erst dann zu einem konkreten Agenten, wenn Zweck, Daten, Wissensquellen, Berechtigungen, Aktionen, Autonomie, Owner, Tests und Governance nach dem DWD-Agentenstandard beschrieben sind.
