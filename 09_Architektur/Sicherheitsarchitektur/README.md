@@ -1,0 +1,3 @@
+# Sicherheitsarchitektur
+
+Architekturbezogene Sicherheitsanforderungen und Schutzmechanismen.

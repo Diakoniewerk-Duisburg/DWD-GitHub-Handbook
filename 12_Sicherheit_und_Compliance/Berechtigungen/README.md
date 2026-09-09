@@ -1,0 +1,3 @@
+# Berechtigungen
+
+Sicherheitsbezogene Berechtigungsmodelle.
