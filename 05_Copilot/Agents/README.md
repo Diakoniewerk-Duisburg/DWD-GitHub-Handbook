@@ -7,6 +7,13 @@ Wissen zu Agents, Agent-Typen, Aufgaben, Grenzen, Laufzeiten und Bereitstellung.
 - [Grundlagen](Grundlagen.md)
 - [Agenten – Uebersicht und Einordnung](Agenten_Uebersicht.md)
 - [Agenten-Matrix](Agenten_Matrix.md)
+- [Agenten-Spezifikation](Agenten_Spezifikation.md)
+- [Agenten-Lifecycle](Agenten_Lifecycle.md)
+- [Autonomiestufen](Autonomiestufen.md)
+- [Connectoren und Aktionen](Connectoren_und_Aktionen.md)
+- [MCP und Tools](MCP_und_Tools.md)
+- [Umgebungen und ALM](Umgebungen_und_ALM.md)
+- [Testing und Debugging](Testing_und_Debugging.md)
 - [Microsoft 365 Copilot – vorgefertigte Agents](Microsoft_Agents.md)
 - [GitHub Copilot – Agenten und agentische Funktionen](GitHub_Agents.md)
 - [Finance Agent](Finance_Agent.md)
@@ -25,6 +32,12 @@ Im Copilot-Umfeld muessen mehrere Ebenen getrennt werden:
 7. **Agentische Erweiterungen** – z. B. GitHub Agent Skills und MCP.
 
 Die Einordnung ist wichtig, weil sich Funktionen, Berechtigungen, Lizenzierung, Datenquellen, Ausfuehrungsumgebung und Governance unterscheiden koennen.
+
+## Technische Kernkette
+
+**Agent -> Harness/Laufzeit -> Wissen -> Tool/Connector/MCP -> Aktion -> Zielsystem**
+
+Diese Kette ist fuer Architektur, Tests, Berechtigungspruefung und Fehleranalyse getrennt zu betrachten.
 
 ## DWD-Grundsatz
 
