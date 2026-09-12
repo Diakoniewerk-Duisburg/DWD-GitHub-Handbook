@@ -1,39 +1,39 @@
-# Projektzeiterfassung
+# Projektübergreifende Zeiterfassung
 
-## Verbindliche zentrale Quelle
+## Verbindliche Quelle
 
-Die zentrale und verbindliche Quelle fuer die Projektzeiterfassung ist das Repository:
+Das zentrale Repository `Diakoniewerk-Duisburg/DWD-Project-Time-Tracking` ist die **verbindliche Quelle für die projektbezogene Zeiterfassung**.
 
-`Diakoniewerk-Duisburg/DWD-Project-Time-Tracking`
+Bei Fragen oder Aktionen zu Arbeitszeit, Produktivzeit, Pausen, Zeitbuchungen, historischen Zeiten sowie Wochen-, Monats- oder Gesamtauswertungen ist zuerst das zentrale Zeiterfassungsrepository heranzuziehen.
 
-Dieses Repository ist die **verbindliche zentrale Quelle fuer die Projektzeiterfassung**.
+Dieses Repository liefert den fachlichen Projektkontext, insbesondere Arbeitspakete, TODOs und Aktivitäten, soweit dieser für die Zeiterfassung benötigt wird.
 
-Dort werden die zentralen Regeln, das Datenmodell, Zeiterfassungsbefehle, historische Uebernahmen sowie Wochen-, Monats- und Gesamtauswertungen gepflegt.
+**Zentrales Zeiterfassungsrepository:**
 
-## Projektkontext
+https://github.com/Diakoniewerk-Duisburg/DWD-Project-Time-Tracking
 
-- **Project ID:** `HANDBOOK`
-- **Repository:** `DWD-Handbook`
-- **Projekt:** DWD M365 Knowledgebase
+**Projekt-Schlüssel:** `HANDBOOK`
 
-Projektbezogene Inhalte, Aufgaben und Dokumentationskontext werden weiterhin aus diesem Repository ermittelt. Die Zeit selbst wird zentral im Repository `DWD-Project-Time-Tracking` gefuehrt.
+## Verbindliche Arbeitsweise
 
-## Hinweis fuer Zeiterfassungsfragen
+1. Zeiterfassungsregeln und Datenmodell werden ausschließlich im zentralen Repository gepflegt.
+2. Zeitbuchungen und zentrale Auswertungen werden im zentralen Repository geführt.
+3. Dieses Projekt-Repository liefert den fachlichen Kontext für die Zuordnung von Arbeitszeit.
+4. Historische, rekonstruierte und geschätzte Zeitinformationen werden nach den zentralen Migrations- und Berichtsstandards behandelt.
+5. Abweichende oder konkurrierende projektspezifische Zeiterfassungsregeln werden nicht eingeführt.
 
-Wenn eine Aufgabe, Unterhaltung oder Auswertung die Projektzeiterfassung betrifft, ist zuerst das zentrale Repository `DWD-Project-Time-Tracking` fuer Regeln, Datenmodell, historische Daten und Berichtslogik heranzuziehen. Dieses Repository liefert den fachlichen Arbeitskontext.
+## Relevante zentrale Standards
 
-Es darf keine eigenstaendige, davon abweichende Zeiterfassungslogik im Projekt aufgebaut werden.
+- `01_Standards/TIME_TRACKING_RULES.md`
+- `01_Standards/TIME_ENTRY_DATA_MODEL.md`
+- `01_Standards/CHAT_TIME_TRACKING_COMMANDS.md`
+- `01_Standards/PROJECT_KEYS.md`
+- `01_Standards/MIGRATION_STANDARD.md`
+- `01_Standards/REPORTING_STANDARD.md`
+- `01_Standards/WEEKLY_REPORT_STANDARD.md`
+- `01_Standards/PROJECT_REPORT_STANDARD.md`
+- `01_Standards/OVERALL_REPORT_STANDARD.md`
 
-## Weiterfuehrende Standards
+## Hinweis für die Zusammenarbeit mit ChatGPT
 
-Die verbindlichen Standards liegen zentral unter `01_Standards/` im Repository `DWD-Project-Time-Tracking`, insbesondere:
-
-- `TIME_TRACKING_RULES.md`
-- `TIME_ENTRY_DATA_MODEL.md`
-- `CHAT_TIME_TRACKING_COMMANDS.md`
-- `PROJECT_KEYS.md`
-- `MIGRATION_STANDARD.md`
-- `REPORTING_STANDARD.md`
-- `WEEKLY_REPORT_STANDARD.md`
-- `PROJECT_REPORT_STANDARD.md`
-- `OVERALL_REPORT_STANDARD.md`
+Wenn eine Unterhaltung dieses Projekt betrifft und Zeiterfassung zum Thema wird, ist das zentrale Repository `DWD-Project-Time-Tracking` die maßgebliche Informationsquelle für die Zeiterfassung. Der aktuelle Projektstand dieses Repositories ist ergänzend heranzuziehen, um Arbeitspaket, TODO und Tätigkeit korrekt zu bestimmen.
